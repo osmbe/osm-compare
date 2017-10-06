@@ -1,0 +1,5 @@
+{
+    "source": "http://datasets.antwerpen.be/v4/gis/velostation.csv",
+    "source_transform": "./transform.js",
+    "overpass": "https://www.overpass-api.de/api/interpreter?data=[out:json][timeout:60];area[boundary=administrative][name=Antwerpen];node(area)[amenity=bicycle_rental][operator=Velo];out;"
+}
